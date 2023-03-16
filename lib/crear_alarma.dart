@@ -79,7 +79,10 @@ class CreateAlarm extends StatelessWidget {
               style: ButtonStyle(
                   backgroundColor:
                       MaterialStateProperty.all(const Color(0xFFEEE5E9))),
-              child: const Text('Crear'),
+              child: const Text(
+                'Guardar',
+                style: TextStyle(color: Colors.black),
+              ),
             )
           ],
         ),
